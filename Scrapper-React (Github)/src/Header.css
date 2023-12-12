@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+ .headings h2{
+    display: inline-block;
+    padding:0px 310px ;
+    margin: 0;
+ }
+
+ .a {
+    background-color: orange;
+    
+ }
+
+ .f {
+    background-color: blue;
+    
+ }
+  nav {
+    text-align: center;
+    
+  }
+
+  .searchbar {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .split-container {
+    width: 100%;
+    display: flex;
+  }
+  
+  .left-half {
+    width: 50%;
+    /* Adjust the height as needed */
+   /* background-image: url('path_to_left_image.jpg');  Set your left background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    /* Text color on left side */
+  }
+  
+  .right-half {
+    width: 50%;
+    text-align: center;
+     /* Adjust the height as needed */
+   /* background-image: url('path_to_right_image.jpg');  Set your right background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
